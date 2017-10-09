@@ -6,11 +6,11 @@
   	if (have_posts() ) :  
   		while (have_posts() ) :the_post(); ?>
   			<section>
-          <div class="cont">
-          <h1 class="title"><?php the_title(); ?></h1>
+          <article>
+          <header><?php the_title(); ?></header>
           <div class="thumbnail-img"><?php the_post_thumbnail('large'); ?></div>
-          <article><?php the_content(); ?></article>
-      	  </div>
+          <?php the_content(); ?>
+      	  </article>
         </section>
       <?php endwhile;
     endif;

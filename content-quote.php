@@ -1,6 +1,5 @@
 <section>
-  <article>
-      <header><?php the_title(); ?></header>
+  <article class="quote">
     <?php the_content(); ?>
   </article>
 </section>

@@ -6,12 +6,12 @@
   	if (have_posts() ) :  
   		while (have_posts() ) :the_post(); ?>
   			<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-          <div class="cont">
-            <h1 class="title"> <?php the_title(); ?></a> </h1> 
+          <article>
+            <header><?php the_title(); ?></header> 
             <small><?php the_tags('', '', ''); ?></small> 
-            <article> <?php the_content(); ?> <?php wp_link_pages(); ?> </article>
+            <?php the_content(); ?> <?php wp_link_pages(); ?>
             <?php comments_template(); ?>
-      	  </div>
+      	  </article>
         </section>
      <?php endwhile;
     endif;

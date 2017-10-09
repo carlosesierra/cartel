@@ -1,5 +1,5 @@
 <section>
-  <div class="cont-gal">
+  <article class="gal">
     <?php the_content(); ?>
-  </div>
+  </article>
 </section>

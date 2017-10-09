@@ -1,6 +1,6 @@
 <section>
-  <div class="cont-aside">
-      <div class="title"> <?php the_title(); ?></div>
+  <article class="aside">
+      <header> <?php the_title(); ?></header>
     <?php the_content(); ?>
-  </div>
+  </article>
 </section>

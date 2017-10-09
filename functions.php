@@ -19,7 +19,7 @@ add_theme_support('post-thumbnails');	/*=== post thumbnails in pot and pages ===
 set_post_thumbnail_size( 825, 510, true );
 add_theme_support( 'title-tag' );	/*=== document title ===*/
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption') );
-add_theme_support( 'post-formats', array('image', 'video', 'gallery', 'aside' ) );
+add_theme_support( 'post-formats', array('image', 'video', 'gallery', 'aside', 'quote' ) );
 add_theme_support( 'automatic-feed-links' );	/*=== add default posts and comments rss feed links to head ===*/
 add_theme_support( 'editor_style');
 load_theme_textdomain( 'cartel', get_template_directory() . '/languages' ); /*=== translations ===*/
